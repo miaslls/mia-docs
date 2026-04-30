@@ -1,8 +1,17 @@
+import './globals.css';
+
 import type { Metadata } from 'next';
+import { Arimo } from 'next/font/google';
+
+const arimo = Arimo({
+  subsets: ['latin'],
+  variable: '--font-arimo',
+});
 
 export const metadata: Metadata = {
   title: 'MiaDocs',
-  description: '',
+  icons: '/favicon.svg',
+  // description: 'TODO:',
 };
 
 export default function RootLayout({
@@ -11,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html className={arimo.variable} lang='en'>
       <body>{children}</body>
     </html>
   );
