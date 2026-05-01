@@ -331,7 +331,7 @@ export default function Page() {
             </h1>
           </header>
 
-          <div className='mt-3 h-[3px] w-full bg-[#2c49b4]' />
+          <div className='mt-3 w-full border-b-[3px] border-[#2c49b4]' />
 
           <p className='mt-4 text-[14px] font-bold uppercase'>
             Termo de Entrega de Chaves e Inexistência de Débitos
