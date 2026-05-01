@@ -352,7 +352,7 @@ export default function Page() {
               <div className='pt-2'>
                 <p className='leading-tight'>
                   Nome(s) social(is) já qualificado(s) no preâmbulo do contrato
-                  de
+                  de locação
                 </p>
                 <CellInput
                   name='locadorSocial'
@@ -378,7 +378,7 @@ export default function Page() {
               <div className='pt-2'>
                 <p className='leading-tight'>
                   Nome(s) social(is) já qualificado(s) no preâmbulo do contrato
-                  de
+                  de locação
                 </p>
                 <CellInput
                   name='locatarioSocial'
